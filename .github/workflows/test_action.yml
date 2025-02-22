@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: call cache deps
-        uses: centralized_github_actions/.github/actions/cache_deps
+        uses: ../centralized_github_actions/.github/actions/cache_deps
 
