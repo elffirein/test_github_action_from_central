@@ -5,6 +5,8 @@ on:
       - master
 jobs:
   test:
-    - name: call cache deps
-      uses: centralized_github_actions/cache_deps@v1
+    runs-on: ubuntu-latest
+    steps:
+      - name: call cache deps
+        uses: centralized_github_actions/cache_deps@v1
 
